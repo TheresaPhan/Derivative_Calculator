@@ -1,3 +1,10 @@
+'''
+USE DIS LINK OVER HEEERRREEEE:
+https://repl.it/repls/ArtisticFlippantDiscussion
+
+AFTER THAT COPY AND PASTE THE CODE
+'''
+
 from sympy import *
 
 
