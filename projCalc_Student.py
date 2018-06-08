@@ -93,6 +93,7 @@ derivType = {"POWER RULE": powerRule, "PRODUCT RULE" : productRule, "QUOTIENT RU
 
 
 def truDeriv(): #seeing if input is true and in the list
+    print("________________________________________________________")
     print("Before we begin, here are the meanings of different math operators. x^.5 is the square root of x. x**2 is x squared. Sec(x)**2 is written as tan(x)**2 + 1, and -csc(x)**2 is written as cot(x)**2.")
     userDeriv = input("What derivative stradegy do you need help on? Product rule, quotient rule, power rule, trig derivatives, inverse trig, or natural log?: ")
 
