@@ -19,7 +19,7 @@ def powerRule():
    
     print( "Original Function: " + str(x**power_Num))
     print("Derivative: " + str(real_deriv))
-    
+    print("Remember, power rule is simply just the power(x)**(power-1).")
 
 def productRule(): 
     print("Product Rule","Enter based on the following format. With this, you can easily identify the product rule as well: \n(ax^b)(cx^d) ")
@@ -33,7 +33,7 @@ def productRule():
    
     print("Original Function: " + str((coeNumA * (x**powerNumA)) * (coeNumB * (x**powerNumB))))
     print("Derivative: " + str(realderiv))
-
+    print("Remember, product rule is only (ax^b)(cd(x**d-1) + (ab(x**b-1))(c(**d)")
 def quotientRule(): 
     tkinter.messagebox.showinfo("Quotient Rule","Enter based on the following format. With this, you can easily identify the quotient rule: \n (ax^b)/(cx^d)" )
     
@@ -45,7 +45,7 @@ def quotientRule():
     realDeriv = diff((a * (x**b))/(c * (x**d)),x)
     int(input( "Original Function: " + str((a * (x**b))/(c * (x**d)))))
     int(input("Dervative: " + str(realDeriv)))
-
+    print("Rember, quotient rule is [[c(x**d) * ab(x**b-1)]-[a(x**b) * cd(x**d-1)]] / (c(x**d))**2")
 def trigDeriv(): 
     print( "You are about to find the derivative of a trig function")
     print("From the list, choose a trig function and type its corresponding number:")
@@ -94,7 +94,7 @@ def natLog():
     
     print("Function: " + str(ln(coe_Num*(x**insidePow))))
     print("Your derivative is: " + str(real_deriv))
-
+    print("Remember, the derivative of ln(x) is simply (1/x)*(the derivative of x). Use this with other ln(x) functions. ln(2x) would be (1/2x)(2)")
 
 derivType = {"POWER RULE": powerRule, "PRODUCT RULE" : productRule, "QUOTIENT RULE" : quotientRule, "TRIG DERIVATIVES": trigDeriv, "INVERSE TRIG" : inverseTrig,"NATURAL LOG" :natLog}
 
