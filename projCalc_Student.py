@@ -1,13 +1,8 @@
 from sympy import *
 
-from tkinter import *
-import tkinter.simpledialog
-import tkinter.messagebox
 
 x = Symbol("x")
-root = Tk()
-w = Label(root, text= "Derivative Calculator")
-w.pack()
+
 
 def powerRule(): 
     print("This is the power rule. Using this format, you can identify problems that need product rules: ")
